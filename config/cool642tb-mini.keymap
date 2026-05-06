@@ -27,6 +27,8 @@
         vim_esc {
             bindings = <&esc_lang2>;
             key-positions = <18 19>;
+            timeout-ms = <250>;
+            require-prior-idle-ms = <150>;
         };
     };
 
